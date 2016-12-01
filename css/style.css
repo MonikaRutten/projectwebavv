@@ -1,0 +1,151 @@
+/*   FONT (geholpen door Mike Lam)   */
+@font-face {
+    font-family: 'nexa';
+    src: url('../font/nexa_light-webfont.woff2') format('woff2'),
+         url('../font/nexa_light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa';
+    src: url('../font/nexa_w01_regular-webfont.woff2') format('woff2'),
+         url('../font/nexa_w01_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa';
+    src: url('../font/nexa_bold-webfont.woff2') format('woff2'),
+         url('../font/nexa_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*   MENU, bron: http://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar   */
+ul {
+    display: flex; /*defines a flex container*/
+    list-style-type: none;
+    margin: -2.5em .5em;
+    padding: 0;
+    overflow: hidden;
+    justify-content: flex-end; /*zet de content aan het uiteinde*/
+
+}
+
+li a {
+    color: #4fb266;
+    text-align: center;
+    padding: 0em .7em 2em .7em;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #2c2f86;
+}
+
+/*   BODY   */
+body{
+	margin:0;
+	padding:0;
+	font-family:"nexa", helvetica;
+}
+
+#logo {
+    text-decoration: none;
+    word-spacing: -.3em;
+    font-size: 1.2em;
+}
+
+#nexabold {
+    font-family: "nexa", helvetica;
+    font-weight: bold;
+    color: #4fb266;
+    word-spacing;
+}
+
+#nexalight {
+    font-family: "nexa", helvetica;
+    font-weight: lighter;
+    color: #4fb266;
+}
+
+header {
+    margin-top: -.5em;
+    margin-bottom: 3em;
+}
+
+#carousel {
+    background-image: url(../img/lock.jpg);
+    padding-top: 20em;
+    padding-bottom: 20em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#title {
+    color: #4fb266;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 20.3em;
+    margin-top: -8.5em;
+    border: 1px solid white;
+    background-color: white;
+    padding-right: 11.68em;
+    padding-top: 2em;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+#aanbevolen {
+    border: solid 1px white;
+    border-radius: 0.75rem;
+    padding: 7em 3em;
+    background-color: hsla(360, 100%, 100%, 0.9);
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: -18%;
+}
+
+#Code {
+    color: #2c2f86;
+    font-weight: bold;
+    margin-left: 22.3em;
+}
+
+#pinkbutton {
+    border: solid 1px #e83a6a;
+    color: white;
+    background-color: #e83a6a;
+    padding: .4375em 1.5em .5625em;
+    border-radius: 1.25em;
+    line-height: 1.5;
+    cursor: pointer;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    text-decoration: none;
+    position: relative;
+    top: 4em;
+}
+
+#filterensorteer {
+    border: 1px solid #f4e5d8;
+    background-color: #f4e5d8;
+    padding: 1.5em;
+}
+
+#filter {
+    border: 1px solid white;
+    background-color: hsla(360, 100%, 100%, 0.7);
+    margin-right: 55%;
+    margin-left: 10%;
+    padding: 1.75rem 2rem;
+    border-radius: 0.75em;
+}
+
+#sorteer {
+    border: 1px solid white;
+    background-color: hsla(360, 100%, 100%, 0.7);
+    margin-left: 55%;
+    margin-right: 10%;
+    padding: 1.75rem 2rem;
+    border-radius: 0.75em;
+}
